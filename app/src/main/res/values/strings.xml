@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">smk_coding_C1</string>
+    <string name="text_dummy">This is text</string>
 </resources>
