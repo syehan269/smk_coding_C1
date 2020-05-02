@@ -40,6 +40,7 @@
                 android:id="@+id/et_name"
                 android:inputType="textPersonName"
                 android:layout_width="match_parent"
+                android:maxLines="1"
                 android:layout_height="wrap_content"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -48,6 +49,7 @@
             android:id="@+id/spn_gender"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:entries="@array/genderList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -60,6 +62,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_age"
+                android:maxLines="1"
                 android:inputType="number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -76,6 +79,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_email"
                 android:inputType="textEmailAddress"
+                android:maxLines="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
@@ -83,29 +87,31 @@
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-            android:id="@+id/et_tele"
             android:layout_marginTop="5dp"
             android:hint="Enter Telephone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_tele"
                 android:layout_width="match_parent"
+                android:maxLines="1"
                 android:layout_height="wrap_content"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
-            android:id="@+id/et_address"
             android:layout_marginTop="5dp"
             android:hint="Enter Address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_address"
                 android:inputType="text"
                 android:layout_width="match_parent"
+                android:maxLines="1"
                 android:layout_height="wrap_content"/>
 
         </com.google.android.material.textfield.TextInputLayout>
