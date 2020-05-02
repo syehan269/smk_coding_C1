@@ -13,7 +13,7 @@
             android:parentActivityName=".activity_home"/>
         <activity
             android:name=".Activity_About"
-            android:parentActivityName=".Activity_Detail" />
+            android:parentActivityName=".activity_home" />
         <activity android:name=".activity_home" />
         <activity android:name=".MainActivity">
             <intent-filter>

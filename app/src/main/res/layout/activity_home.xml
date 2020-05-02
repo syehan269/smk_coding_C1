@@ -95,6 +95,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/et_tele"
                 android:layout_width="match_parent"
+                android:inputType="phone"
                 android:maxLines="1"
                 android:layout_height="wrap_content"/>
 
