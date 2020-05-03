@@ -18,10 +18,6 @@ class Activity_Detail : AppCompatActivity() {
         setSupportActionBar(toolbar_detail)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        btn_about.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, Activity_About::class.java)
-            startActivity(intent)
-        })
     }
 
     override fun onStart() {

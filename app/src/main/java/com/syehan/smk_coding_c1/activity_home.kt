@@ -38,8 +38,21 @@ class activity_home : AppCompatActivity() {
                 intent.putExtra("getTele", getTele)
                 startActivity(intent)
             }
-
         })
 
+
+
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.option_home, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        when(item?.itemId){
+            R.id.about_opt -> startActivity( Intent(this, Activity_About::class.java))
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
