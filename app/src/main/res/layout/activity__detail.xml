@@ -32,7 +32,10 @@
             android:id="@+id/ln_main_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_global"
+            android:layout_marginTop="@dimen/margin_global"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
             android:orientation="vertical">
 
             <ImageView
@@ -47,12 +50,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:padding="5dp">
 
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:text="Name "/>
 
                 <TextView
@@ -60,6 +64,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_dummy"
+                    android:maxLines="2"
                     android:ellipsize="end" />
 
             </LinearLayout>
@@ -68,12 +73,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:padding="5dp">
 
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:text="Gender "/>
 
                 <TextView
@@ -81,6 +87,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_dummy"
+                    android:maxLines="2"
                     android:ellipsize="end" />
 
             </LinearLayout>
@@ -89,12 +96,13 @@
                 android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:text="Age "/>
 
                 <TextView
@@ -102,6 +110,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_dummy"
+                    android:maxLines="2"
                     android:ellipsize="end" />
 
             </LinearLayout>
@@ -110,12 +119,13 @@
                 android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:text="Email "/>
 
                 <TextView
@@ -123,6 +133,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_dummy"
+                    android:maxLines="2"
                     android:ellipsize="end" />
 
             </LinearLayout>
@@ -131,12 +142,13 @@
                 android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:text="Telephone "/>
 
                 <TextView
@@ -144,6 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_dummy"
+                    android:maxLines="2"
                     android:ellipsize="end" />
 
             </LinearLayout>
@@ -152,12 +165,13 @@
                 android:padding="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:text="Address "/>
 
                 <TextView
@@ -165,6 +179,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_dummy"
+                    android:maxLines="4"
                     android:ellipsize="end" />
 
             </LinearLayout>
